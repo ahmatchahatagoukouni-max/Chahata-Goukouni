@@ -1,0 +1,115 @@
+body{
+    background-image: url(fond.png);
+    
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+header img{
+    background-color: white;
+    width: 30%;
+    height: 15%;
+    display: block;
+}
+header p{
+    color: red;
+}
+div #banniere img{
+    width: 85%;
+    height: 15%;
+}
+
+
+
+nav{
+    background: white;
+    padding: 25px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+nav a{
+    color: red;
+    margin: 50px;
+    text-decoration: none;
+
+}
+nav li{
+    display: inline-block;
+    margin-left:15px ;
+}
+header,nav{
+    display: block;
+}
+
+#index article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin: 10px;
+    background-size: cover;
+}
+aside{
+    background-color: rgb(193, 193, 193);
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 5px;
+}
+aside img{
+    width: 13%;
+    height: 5%;
+}
+#dg_enastic2{
+    float: left;
+    display: block;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+}
+#index,#dg_enastic2{
+    margin: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 250px;
+   background-color: palevioletred;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 22px;
+}
+th{
+    font-weight: bold;
+    text-align: left;
+}
+
+footer{
+  
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer {
+    color: blue;
+
+}
